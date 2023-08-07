@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@{
+    var viewbadadd = ViewBag.nummber1 + ViewBag.number2;
+    var viewdataadd =int.Parse(ViewData["number1"].ToString()) + int.Parse(ViewData["number2"].ToString());
+ }
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<h3>@ViewBag.LoginMessageABOUT</h3>
+
+
+<span>this is view data addition value @viewbadadd </span><br>
+<span>this is view data addition value @viewdataadd</span>
+
+<p>Use this area to provide additional information.</p>
